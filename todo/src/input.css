@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+body{
+    color: #F7F7F7;
+    background-color: #0F172A;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+input{
+    padding: 1vh 4vw;
+    outline: none;
+    border: 7px #37476C;
+    
+
+}
+button{
+    padding: 1.4vh 2vw;
+    background-color: #37476C;
+    color: #F7F7F7;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+}
+.dateToday{
+    margin-top: 5vh;
+    padding-bottom: 5vh;
+}
+.taskList{
+    padding: 5vh 5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1.7vh;
+
+
+}
+li{
+    padding: 2vh 3vw;
+    min-width: 400px;
+    background-color: #CBD5E1;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #37476C;
+}
+.actionBox{
+    display: flex;
+    gap: 1.2vw;
+}
